@@ -47,9 +47,10 @@
     </build>
 
     <distributionManagement>
-        <repository>
-            <id>bintray-repo-maven-example</id>
-            <url>https://api.bintray.com/maven/${bintray.subject}/${bintray.repo}/${bintray.package}/;publish=1</url>
-        </repository>
-    </distributionManagement>
+                <repository>
+                <id>bintray-nimbals1-remoterepo</id>
+                <name>nimbals1-remoterepo</name>
+                <url>https://api.bintray.com/maven/nimbals1/remoterepo/[PACKAGE_NAME]/;publish=1</url>
+                </repository>
+</distributionManagement>
 </project>
